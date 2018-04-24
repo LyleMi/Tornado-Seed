@@ -10,8 +10,8 @@ CREATE TABLE `test` (
 );
 
 
-CREATE USER 'ctf'@'localhost' IDENTIFIED BY 'random_password';
-GRANT all privileges ON test.* TO 'ctf'@'localhost';
+CREATE USER 'test'@'localhost' IDENTIFIED BY 'random_password';
+GRANT all privileges ON test.* TO 'test'@'localhost';
 
 CREATE USER 'backup'@'localhost' IDENTIFIED BY 'another_random_password';
 GRANT SELECT ON test.* TO 'backup'@'localhost';

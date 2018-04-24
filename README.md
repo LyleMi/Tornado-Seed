@@ -5,8 +5,9 @@ Quick start for Tornado and Sqlalchemy
 ## Install
 
 ```bash
-$ sudo pip install tornado
-$ sudo pip install sqlalchemy
+$ git clone https://github.com/LyleMi/Tornado-Seed.git
+$ sudo pip install --upgrade tornado sqlalchemy
+$ mv common/sqlconfig-template.py common/sqlconfig.py
 $ cd server
 $ bower init
 ```

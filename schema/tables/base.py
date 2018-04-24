@@ -13,8 +13,6 @@ class BaseTable(object):
     def toStr(self):
         s = deepcopy(self.__dict__)
         del(s['_sa_instance_state'])
-        if "time" in s:
-            s["time"] = str(s["time"])
         return s
 
     @classmethod
