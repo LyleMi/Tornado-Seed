@@ -6,7 +6,8 @@ use `test`;
 
 CREATE TABLE `test` (
     `uid` VARCHAR(32) NOT NULL,
-    UNIQUE (`uid`)
+  `created` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`uid`)
 );
 
 
