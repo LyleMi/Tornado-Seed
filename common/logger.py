@@ -5,7 +5,7 @@ import os
 import logging
 
 logdir = os.path.join(".", "logs")
-logpath = os.path.join(logdir, "firewall.log")
+logpath = os.path.join(logdir, "logs.log")
 
 formatStr = '[%(asctime)s] [%(levelname)s] %(message)s'
 formatter = logging.Formatter(formatStr)
